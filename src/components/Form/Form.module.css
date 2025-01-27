@@ -1,0 +1,48 @@
+.form {
+    width: 360px;
+    background-color: rgb(124, 86, 160);
+    margin: 10px 0;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.todo-text {
+    display: block;
+     font-size: 20px;
+     width: 100%;
+     box-sizing: border-box;
+}
+
+.form-btn {
+    font-size: 24px;
+    padding: 2px;
+    margin: 5px 0px;
+    border-radius: 6px;
+    background-color: rgb(187, 213, 221);
+}
+
+.form-btn:hover{
+    cursor: pointer;
+}
+
+.delete-btn {
+     padding: 2px;
+     font-size: 24px;
+     border-radius: 6px;
+     background-color: red;
+     border: 1px solid black;
+ 
+    
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
+@media (max-width:415px) {
+    .form{
+        width: 300px;
+    }
+    
+}
